@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.91665649414016" prefWidth="631.7317725585963" styleClass="backgr" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.Controller">
+  <children>
+    <ImageView fitHeight="337.9166263348363" fitWidth="540.6666259765625" layoutX="86.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/girls.jpg" />
+      </image>
+    </ImageView>
+    <Button layoutX="263.0" layoutY="162.0" mnemonicParsing="false" prefWidth="65.0" styleClass="button" text="glory" />
+    <TextField layoutX="129.0" layoutY="76.0" prefWidth="200.0" />
+    <TextField layoutX="129.0" layoutY="124.0" prefWidth="200.0" />
+    <Button layoutX="179.0" layoutY="162.0" mnemonicParsing="false" styleClass="button" text="cancel" />
+    <Label layoutX="12.0" layoutY="79.0" styleClass="supportUkraine" text="ur login please" />
+    <Label layoutX="13.0" layoutY="127.0" styleClass="supportUkraine" text="ur pass please" />
+    <Label layoutX="33.0" layoutY="14.0" styleClass="supportUkraine" text="Support Ukraine" textFill="BLACK" wrapText="false">
+      <font>
+        <Font name="Noto Sans Inscriptional Pahlavi" size="13.0" />
+      </font>
+    </Label>
+    <Label layoutX="250.0" layoutY="14.0" styleClass="supportUkraine" text="Glory to Uktaine" />
+    <Label layoutX="244.0" layoutY="308.0" text="developed by Peter James" styleClass="supportUkraine" />
+  </children>
+</AnchorPane>

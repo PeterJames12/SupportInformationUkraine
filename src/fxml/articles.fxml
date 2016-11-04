@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="806.7318725585938" styleClass="backgr" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.Controller">
+  <children>
+    <ImageView fitHeight="452.9999084472656" fitWidth="805.3331841064095" layoutY="29.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="-83.0">
+      <image>
+        <Image url="@../img/coolGirl.jpg" />
+      </image>
+    </ImageView>
+    <Button layoutX="523.0" layoutY="418.0" mnemonicParsing="false" prefWidth="66.0" text="next" />
+    <Button layoutX="598.0" layoutY="245.0" mnemonicParsing="false" text="add to db" />
+    <TextArea layoutX="38.0" layoutY="164.0" prefHeight="239.0" prefWidth="551.0" wrapText="true" />
+    <Label layoutX="38.0" layoutY="121.0" text="Tittle" styleClass="supportUkraine">
+      <font>
+        <Font size="15.0" />
+      </font>
+    </Label>
+    <Label layoutX="310.0" layoutY="29.0" text="Support Uktaine" styleClass="support">
+      <font>
+        <Font size="23.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

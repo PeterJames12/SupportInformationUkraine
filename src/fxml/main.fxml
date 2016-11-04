@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane styleClass="backgr" id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="490.73187255859375" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.Controller">
+  <children>
+    <ImageView fitHeight="487.0000687219609" fitWidth="490.73188100585685" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true" styleClass="jim">
+      <image>
+        <Image url="@../img/Jimmi.jpg" />
+      </image>
+    </ImageView>
+    <Button id="" layoutX="363.0" layoutY="157.0" mnemonicParsing="false" prefWidth="108.0" styleClass="button" text="Пошук" />
+    <Button layoutX="363.0" layoutY="220.0" mnemonicParsing="false" styleClass="button" text="База данних" />
+  </children>
+</AnchorPane>

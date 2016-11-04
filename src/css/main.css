@@ -1,0 +1,41 @@
+.button {
+    /*-fx-background-color: yellowgreen;*/
+    -fx-background-color: orange !important;
+    -fx-color: white;
+    /*-fx-border-bottom: 4px solid #b1770d;*/
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+    -fx-border-top: none !important;
+}
+
+.jim {
+    -fx-position: relative;
+    -fx-background-image: url(/img/Jimmi.jpg);
+    -fx-webkit-background-size: cover;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-width: 100%;
+    -fx-min-height: 575px;
+    -fx-display: -webkit-flex;
+    -fx-display: flex;
+    -fx-ms-align-items: center;
+    -fx-align-items: center;
+    -fx-justify-content: flex-end;
+}
+
+.supportUkraine {
+
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+
+}
+
+.backgr {
+    -fx-background-color: white;
+}
+
+.support {
+    -fx-font-size: 23px;
+    -fx-text-fill: black;
+}
